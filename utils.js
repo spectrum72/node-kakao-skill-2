@@ -3,7 +3,7 @@ Templates = {
 };
 
 class Template {
-    template = {
+    data = {
         version: "2.0",
         template: {
             outputs: []

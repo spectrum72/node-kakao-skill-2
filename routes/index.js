@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
 router.post("/hello", (req, res) => {
   const response = new Template().addSimpleText("Hello world");
-  res.send(response);
+  res.send(response.data);
 });
 
 module.exports = router;
